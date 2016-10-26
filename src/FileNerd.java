@@ -11,6 +11,7 @@ public class FileNerd {
 			maxIndx++;
 			a[maxIndx] = sf.nextLine();
 		}
+		sf.close();
 		for (int n = 0; n <= maxIndx; n++){
 			if (a[n].substring(0,3).equals("The")){
 				System.out.println(a[n]);
